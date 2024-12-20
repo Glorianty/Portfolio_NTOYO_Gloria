@@ -1,0 +1,182 @@
+/* Général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.8;
+    background-image: url(../../DESIGN_NUMÉRIQUE/Portfolio/fond.png);
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center; /* Centrer l'image */
+    background-attachment: fixed; /* Effet de défilement fixe */
+    background-repeat: no-repeat; /* Pas de répétition */
+}
+
+header {
+    background-color: #ffffff00;
+    color: #000000;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+    margin-right: 45px;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px; /* Taille estimée visuellement */
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px; /* Taille estimée pour le titre principal */
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px; /* Taille estimée pour le sous-titre */
+    margin-bottom: 50px;
+    color: #555;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px; /* Taille pour le corps du texte */
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#p1 {
+    text-align: center;
+    justify-content: center;
+}
+
+
+#competences {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacement entre les icônes */
+    margin-top: 1rem;
+    margin-bottom: 100px;
+}
+
+.icons img {
+    width: 45px;
+    height: 45px; /* Taille uniforme pour les icônes */
+}
+
+/* Button container */
+.button-container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000000; /* Couleur bleue */
+    text-decoration: none;
+    border-radius: 5px; /* Forme arrondie */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #373737; /* Couleur légèrement plus clair au survol */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #000000;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+/* Page 2*/
+
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 1.5rem; /* Espacement entre les éléments */
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+/* Projet */
+.project {
+    background-color: #d5d5d5;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project img {
+    width: 100%; /* L'image occupe toute la largeur de la case */
+    height: 100%; /* L'image occupe toute la hauteur de la case */
+    object-fit: cover; /* Adapte l'image pour remplir la case */
+    display: block;
+    }
+
+.project:hover {
+    transform: translateY(-5px);
+    background-color: #0056b3;
+}
